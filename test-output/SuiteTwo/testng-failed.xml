@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteTwo]">
+  <test thread-count="5" name="SuiteTwoCaseOne(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseOne">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkCaseToRun"/>
+          <include name="reporterDataResults"/>
+          <include name="checkSuiteToRun"/>
+          <include name="SuiteTwoCaseOneTest" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseOne -->
+    </classes>
+  </test> <!-- SuiteTwoCaseOne(failed) -->
+  <test thread-count="5" name="SuiteTwoCaseTwo(failed)">
+    <classes>
+      <class name="com.stta.SuiteTwo.SuiteTwoCaseTwo">
+        <methods>
+          <include name="SuiteTwoCaseTwoTest" invocation-numbers="1"/>
+          <include name="checkSuiteToRun"/>
+          <include name="checkCaseToRun"/>
+          <include name="closeBrowser"/>
+          <include name="reporterDataResults"/>
+        </methods>
+      </class> <!-- com.stta.SuiteTwo.SuiteTwoCaseTwo -->
+    </classes>
+  </test> <!-- SuiteTwoCaseTwo(failed) -->
+</suite> <!-- Failed suite [SuiteTwo] -->

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43736" started-at="2019-12-17T09:57:51Z" finished-at="2019-12-17T09:58:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43736" started-at="2019-12-17T09:57:51Z" finished-at="2019-12-17T09:58:35Z">
+      <class name="com.stta.SuiteOne.SuiteOneCaseOne">
+        <test-method status="PASS" signature="checkSuiteToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@42e26948]" name="checkSuiteToRun" is-config="true" duration-ms="654" started-at="2019-12-17T09:57:51Z" finished-at="2019-12-17T09:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteToRun -->
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@42e26948]" name="checkCaseToRun" is-config="true" duration-ms="8" started-at="2019-12-17T09:57:51Z" finished-at="2019-12-17T09:57:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@42e26948]" name="SuiteOneCaseOneTest" duration-ms="41036" started-at="2019-12-17T09:57:51Z" data-provider="SuiteOneCaseOneData" finished-at="2019-12-17T09:58:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseOneTest -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@42e26948]" name="reporterDataResults" is-config="true" duration-ms="68" started-at="2019-12-17T09:58:32Z" finished-at="2019-12-17T09:58:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="SuiteOneCaseOneTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@42e26948]" name="SuiteOneCaseOneTest" duration-ms="2336" started-at="2019-12-17T09:58:33Z" data-provider="SuiteOneCaseOneData" finished-at="2019-12-17T09:58:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteOneCaseOneTest -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@42e26948]" name="reporterDataResults" is-config="true" duration-ms="10" started-at="2019-12-17T09:58:35Z" finished-at="2019-12-17T09:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.stta.SuiteOne.SuiteOneCaseOne@42e26948]" name="closeBrowser" is-config="true" duration-ms="259" started-at="2019-12-17T09:58:35Z" finished-at="2019-12-17T09:58:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.stta.SuiteOne.SuiteOneCaseOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
