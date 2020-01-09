@@ -1,10 +1,11 @@
 
 public class TestPush2 {
-
+	static int i =10;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		// added newly
-
+		
+	 if (i==10){
+		 System.out.println("Print :"+i);
+	 }
 	}
 
 }
